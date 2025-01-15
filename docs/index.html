@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Social -->
+    <meta property="og:description" content="This project is a simple checklist application designed for the DSF (Digital Service Factory) team">
+    <meta property="og:title" content="DSF Assessment Checklist">
+    <meta property="og:url" content="https://SERVICE_URL">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/icons-512.png">
+    <meta property="og:site_name" content="gov.cy">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://SERVICE_URL">
+    <meta property="twitter:title" content="DSF Assessment Checklist">
+    <meta property="twitter:description" content="This project is a simple checklist application designed for the DSF (Digital Service Factory) team">
+    <meta property="twitter:image"
+        content="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/icons-512.png">
+
+    <!-- Theme -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#31576F">
+    <link rel="icon" type="image/png" sizes="48x48"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/favicon-16x16.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/apple-touch-icon-57x57-precomposed.png">
+    <!-- CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3/dist/css/govcy.uds.min.css"
+        integrity="sha384-1zLHWOtnS0hOIz5mVEPZp0UH5gUE6eo0CQcCGA3sF2TyYhHyKOd3Ni8Iy/NjEASU" crossorigin="anonymous">
+    <!-- mavigo -->
+    <script src="https://unpkg.com/navigo@7.1.2/lib/navigo.min.js"></script>
+    <!-- <script src="js/navigo.min.js"></script> -->
+    <title>DSF Assessment Checklist</title>
+    <meta name="description" content="This project is a simple checklist application designed for the DSF (Digital Service Factory) team">
+    <style>
+        #mainContainer:focus-visible, #mainContainer:focus {
+            outline: none;
+        }
+        .govcy-link-no-visited-state:focus {
+            color: #272525 !important;
+        }
+    </style>
+</head>
+<body>
+    <!--bodyStart-->
+    <section class="govcy-container-fluid" id="bodyStartContainer">
+        <a href="#!/mainContainer" class="govcy-skip-link">Skip to main content</a>
+    </section>
+    <!--Header-->
+    <header class="govcy-header govcy-d-print-none" id="headerContainer">
+        <div class="govcy-header-main-area">
+            <div class="govcy-container govcy-main-area-items">
+                <div class="govcy-navigation-container">
+                    <div class="govcy-service-container">
+                        <span class="govcy-service-name"><a href="./" id="serviceName">DSF Assessment Checklist</a></span>
+                    </div>
+                    <ul class="govcy-menu-items">
+                        <li class="govcy-mobile-menu govcy-mobile-menu-only govcy-dropdown govcy-ms-auto"><span><a href="#" class="govcy-menu-item govcy-expand-btn">Menu</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="govcy-header-menu-area">
+            <nav class="govcy-mainmenu" aria-label="Main Menu">
+                <div class="govcy-container">
+                    <ul class="govcy-menu-items" aria-label="Main Menu" id="mainMenu">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <style>
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* background-color: #31576F; */
+  background-color: #0E2F41;
+  box-shadow: 0 2px 4px #FFAD2D;
+  /* background-color: #fff; */
+  /* box-shadow: 0 2px 4px rgba(0,0, 0, 0.1); */
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.page-title a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  /* color: #000; */
+  margin: 0;
+  text-decoration: none;
+}
+
+/* Sticky Footer */
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1000; /* Ensure it stays above other elements */
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0E2F41;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 4px #FFAD2D;
+  padding: 8px 0;
+}
+
+.footer-link, .footer-link:visited {
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+    </style>
+    <!-- Mobile view only -->
+    <div class="sticky-header govcy-d-none" id="headerContainerMobile">
+        <div class="govcy-container">
+            <div class="header-content">
+                <div class="page-title"><a href="./" id="serviceNameMobile">DSF Assessment Checklist</a></div>
+            </div>
+        </div>
+    </div>
+    <!--beforeMain-->
+    <section class="govcy-container" id="beforeMainContainer"></section>
+    <!--main-->
+    <main class="govcy-container" id="mainContainer">
+        <div class="govcy-row">
+            <article class="govcy-col-8 govcy-form" id="mainContent" aria-live="polite"></article>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="govcy-footer govcy-d-print-none" id="footerContainer">
+        <div class="govcy-container">
+            <div class="govcy-d-flex govcy-justify-content-between govcy-align-items-end govcy-flex-wrap">
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="#!/privacy">Privacy statement</a></li>
+                        <li><a href="#!/cookies">Cookies</a></li>
+                        <li><a href="#!/accessibility">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="govcy-my-4">
+                    <ul>
+                        <li><a href="javascript:_mobileUI('mobile');">Mobile view</a></li>
+                        <li><a href="javascript:_mobileUI('web');">Web view</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Mobile view only -->
+    <footer class="sticky-footer govcy-d-print-none govcy-d-none"  id="footerContainerMobile">
+        <a href="javascript:_mobileUI('mobile');" class="footer-link">Mobile</a>
+        <a href="javascript:_mobileUI('web');" class="footer-link">Web</a>
+        <a href="#!/accessibility" class="footer-link">Accessibility</a>
+      </footer>
+      
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3/dist/js/govcy.uds.min.js"
+        integrity="sha384-zOuDuogVaaTveh/Ou2iYwCk14zFiSmMk7Ax8yRnXDtOJMyKZH5+ZNibNVwZSKtw+"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-frontend-renderer@v1/dist/govcyCompiledTemplates.browser.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-frontend-renderer@v1/dist/govcyFrontendRenderer.browser.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/sw-registration.js"></script>
+</body>
+
+</html>

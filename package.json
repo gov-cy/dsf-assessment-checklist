@@ -1,0 +1,19 @@
+{
+  "name": "dsf-simple-checklist",
+  "version": "0.0.1",
+  "description": "This project is a simple checklist application designed for the DSF (Digital Service Factory) team.",
+  "main": "index.html",
+  "keywords": [],
+  "author": "DMRID - DSF Team",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -c-1 -p 3000 -o docs/"
+    ,"a11y-test" : "node a11y.mjs  "
+    ,"build-sw" : "npx workbox injectManifest src/workbox-config.js "
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "pa11y": "^8.0.0",
+    "workbox-cli": "^7.3.0"
+  }
+}

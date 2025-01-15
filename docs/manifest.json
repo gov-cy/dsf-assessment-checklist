@@ -1,0 +1,52 @@
+{
+    "short_name": "DSF Assessment Checklist",
+    "name": "DSF Assessment Checklist",
+    "description" : "This project is a simple checklist application designed for the DSF (Digital Service Factory) team",
+    "icons": [
+        {
+            "src": "https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/icons-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/img/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "img/screenshot1.png",
+            "sizes": "930x477",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "img/screenshot1_1.png",
+            "sizes": "930x477",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "img/screenshot2.png",
+            "sizes": "423x840",
+            "type": "image/png"
+        },
+        {
+            "src": "img/screenshot2_1.png",
+            "sizes": "423x840",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#31576F",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#31576F",
+    "dir": "ltr"
+}

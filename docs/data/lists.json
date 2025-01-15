@@ -1,0 +1,653 @@
+[
+    {
+        "id": "preliminary",
+        "title": {
+            "en": "Preliminary Assessment Checklist",
+            "el": "..."
+        },
+        "menu": {
+            "en": "Preliminary",
+            "el": "..."
+        },
+        "checks": {
+            "elements": [
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "1",
+                        "name": "1",
+                        "legend": {
+                            "en": "1. Understand users and their needs",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "1.1",
+                                "text": {
+                                    "en": "1.1 – identification of potential user groups",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "1.2",
+                                "text": {
+                                    "en": "1.2 – Conduct user research with potential user groups",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "1.3",
+                                "text": {
+                                    "en": "1.3 – Design and development of the service",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "2",
+                        "name": "2",
+                        "legend": {
+                            "en": "2. Solve a whole problem for users",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "2.1",
+                                "text": {
+                                    "en": "2.1 – Identification of all steps of the user’s journey and mapping when using a service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "2.2",
+                                "text": {
+                                    "en": "2.2 – Identification of all relevant government departments and teams required to meet the service user’s goal",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "2.3",
+                                "text": {
+                                    "en": "2.3 – Identification of any potential constraints and strategies elevate them so there are no dead ends?",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "3",
+                        "name": "3",
+                        "legend": {
+                            "en": "3. Have a multidisciplinary team",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "3.1",
+                                "text": {
+                                    "en": "3.1 – Service team Roles",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "4",
+                        "name": "4",
+                        "legend": {
+                            "en": "4. Use Agile ways of working",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "4.1",
+                                "text": {
+                                    "en": "4.1 – Service team’s way of working based on agile development methodology",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "4.2",
+                                "text": {
+                                    "en": "4.2 – Service Teams continuous evaluation and adjustment of service goals based on user needs",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "final",
+        "title": {
+            "en": "Final Assessment Checklist",
+            "el": "..."
+        },
+        "menu": {
+            "en": "Final",
+            "el": "..."
+        },
+        "checks": {
+            "elements": [
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "3_final",
+                        "name": "3_final",
+                        "legend": {
+                            "en": "3. Provide a joined-up experience across all channels",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "3.1",
+                                "text": {
+                                    "en": "3.1 – Ability of users to complete their goal across online and offline channels",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "3.2",
+                                "text": {
+                                    "en": "3.2 – Consistency of User experience across all channels (online and offline)",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "4_final",
+                        "name": "4_final",
+                        "legend": {
+                            "en": "4. Make the service simple to use",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "4.1",
+                                "text": {
+                                    "en": "4.1 – Simple and easily understood language within the service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "4.3",
+                                "text": {
+                                    "en": "4.3 – Test the service on a variety of devices",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "4.2_final",
+                        "name": "4.2_final",
+                        "legend": {
+                            "en": "4.2 – Consistent styles with the Digital Services Design System",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "4.2.1",
+                                "text": {
+                                    "en": "4.2.1 – Follow the design system principles",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "4.2.2",
+                                "text": {
+                                    "en": "4.2.2 – Include the HTML 5 important globals in the<head> section of the HTML as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.3",
+                                "text": {
+                                    "en": "4.2.3 – include title and description in the <head> section of the HTML as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.4",
+                                "text": {
+                                    "en": "4.2.4 – Include social meta tags in the <head> section of the HTML as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.5",
+                                "text": {
+                                    "en": "4.2.5 – Include theme meta tags and manifest.json in the <head> section of the HTML as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.6",
+                                "text": {
+                                    "en": "4.2.6 – Use the right colours in the service as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.7",
+                                "text": {
+                                    "en": "4.2.7 – Use the right page template in the service, which includes max width, responsive breakpoint, and the designated sections as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.8",
+                                "text": {
+                                    "en": "4.2.8 – The content shall follow the vertical spacing rules as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.9",
+                                "text": {
+                                    "en": "4.2.9 – Use one of the layouts as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.10",
+                                "text": {
+                                    "en": "4.2.10 – Use the right typography rules as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.11",
+                                "text": {
+                                    "en": "4.2.11 – Include a gov.cy header as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.12",
+                                "text": {
+                                    "en": "4.2.12 – Include a gov.cy footer as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.13",
+                                "text": {
+                                    "en": "4.2.13 – Include the skip link in all pages as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.14",
+                                "text": {
+                                    "en": "4.2.14 – Include a back or breadcrumbs components as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.15",
+                                "text": {
+                                    "en": "4.2.15 – Include a page title (header h1) in all pages as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.16",
+                                "text": {
+                                    "en": "4.2.16 – Follow the guidance for focus state on interactive elements as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.17",
+                                "text": {
+                                    "en": "4.2.17 – Place elements in the correct order as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.18",
+                                "text": {
+                                    "en": "4.2.18 – ??",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.19",
+                                "text": {
+                                    "en": "4.2.19 – Indicate error messages and error summary as defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.20",
+                                "text": {
+                                    "en": "4.2.20 – Follow the structuring a service and question pages pattern to get input from the users",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.21",
+                                "text": {
+                                    "en": "4.2.21 – Use the check answers pattern before users submit information to your service",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.22",
+                                "text": {
+                                    "en": "4.2.22 – Use the user interface elements components and patterns the way they are defined in the design system",
+                                    "el": "..."
+                                }
+                            }
+                            ,{
+                                "value": "4.2.23",
+                                "text": {
+                                    "en": "4.2.23 – If you used different design elements than the ones specified in the design system",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "5_final",
+                        "name": "5_final",
+                        "legend": {
+                            "en": "5. Make sure everyone can use the service",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "5.1",
+                                "text": {
+                                    "en": "5.1 – Check the online service for accessibility in accordance with the Cyprus Accessibility Standards",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "5.2",
+                                "text": {
+                                    "en": "5.2 – User research of the service with all potential groups of users, including people with accessibility needs",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "8_final",
+                        "name": "8_final",
+                        "legend": {
+                            "en": "8. Iterate and improve frequently",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "8.1",
+                                "text": {
+                                    "en": "8.1 – Any iterations based on user research/needs, if exist",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "9_final",
+                        "name": "9_final",
+                        "legend": {
+                            "en": "9. Iterate and improve frequently",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "9.1",
+                                "text": {
+                                    "en": "9.1 – Relevant laws on data protection including EU data protection rules that apply to the service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "9.2",
+                                "text": {
+                                    "en": "9.2 – Users’ personal data been collected and processed in a way that ensures their privacy",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "9.3",
+                                "text": {
+                                    "en": "9.3 – Performance of penetration testing on the service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "9.4",
+                                "text": {
+                                    "en": "9.4 – Performance of Web Application Security Assessment (WASA) of the service",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "10_final",
+                        "name": "10_final",
+                        "legend": {
+                            "en": "10. Define what success looks like and publish performance data",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "10.1",
+                                "text": {
+                                    "en": "10.1 – KPIs/success metrics based on identified user needs for the service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "10.2",
+                                "text": {
+                                    "en": "10.2 – Methods/tools for gathering KPI/performance data",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "11_final",
+                        "name": "11_final",
+                        "legend": {
+                            "en": "11. Choose the right tools and technology",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "11.1",
+                                "text": {
+                                    "en": "11.1 – Technology choice",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "11.2",
+                                "text": {
+                                    "en": "11.2 – Compliance of Technology chosen with the DSF Technical Principles",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "11.3",
+                                "text": {
+                                    "en": "11.3 – Use of proven, mature, adopted, and open standards technology",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "12_final",
+                        "name": "12_final",
+                        "legend": {
+                            "en": "12. Make your data and functionality available via APIs",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "12.1",
+                                "text": {
+                                    "en": "12.1 – Use common patterns such as REST for service’s APIs",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "12.2",
+                                "text": {
+                                    "en": "12.2 – Test of the APIs and the service",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "12.3",
+                                "text": {
+                                    "en": "12.3 – Enforce security standards on the APIs",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "13_final",
+                        "name": "13_final",
+                        "legend": {
+                            "en": "13. Use and contribute to open standards, common components and patterns",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "13.1",
+                                "text": {
+                                    "en": "13.1 – Open standards used (existing or new)",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "13.2",
+                                "text": {
+                                    "en": "13.2 – Use of  DSF Design System common components and patterns",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "14_final",
+                        "name": "14_final",
+                        "legend": {
+                            "en": "14. Operate a reliable service",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "14.1",
+                                "text": {
+                                    "en": "14.1 – Test the service in an environment similar to live to anticipate issues that could cause downtime, and mitigate them",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "14.2",
+                                "text": {
+                                    "en": "14.2 – Regular deployment of changes on the service with minimal disruption to the service?",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "14.3",
+                                "text": {
+                                    "en": "14.3 – Availability of README and CHANGELOG files",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "element": "checkboxes",
+                    "params": {
+                        "id": "15_final",
+                        "name": "15_final",
+                        "legend": {
+                            "en": "15.Ensure your service is ‘DSF ready’",
+                            "el": "..."
+                        },
+                        "items": [
+                            {
+                                "value": "15.1",
+                                "text": {
+                                    "en": "15.1 – Service’s other hosting options (such as on-premises hosting)",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "15.2",
+                                "text": {
+                                    "en": "15.2 – Follow of 12 factor methodology to support portability and resilience (https://12factor.net/)",
+                                    "el": "..."
+                                }
+                            },
+                            {
+                                "value": "15.3",
+                                "text": {
+                                    "en": "15.3 – Containerisation of the service and on which infrastructures can the service run to provide broad hosting options",
+                                    "el": "..."
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]
