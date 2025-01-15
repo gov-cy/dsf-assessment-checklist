@@ -21,12 +21,14 @@ This document describes the process of creating a Progressive Web App (PWA) for 
 
 **2. Service Worker Logic:**
 
-- Precached assets using `precacheAndRoute`.
+- ~~Precached assets using `precacheAndRoute`.~~
 - Dynamically cached resources using `registerRoute` with strategies like `NetworkFirst`.
 - Handled cleanup of old caches during the SW activation phase.
 
 **3.Building the SW:**
 
+- ~~Installed `workbox-cli` globally using `npm install -g workbox-cli`.~~ Can be installed locally.
+- Installed `workbox-cli` locally using `npm install workbox-cli --save-dev`.
 - Used the Workbox CLI command:
 ```bash
 npx workbox injectManifest src/workbox-config.js
