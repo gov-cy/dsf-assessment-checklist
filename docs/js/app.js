@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                                     "actions": [
                                         {
                                             "text": config.other_content.change
-                                            , "classes": "govcy-link-no-visited-state"
+                                            , "classes": "govcy-link-no-visited-state govcy-d-print-none"
                                             , "visuallyHiddenText": element.params.legend
                                             , "href": `#!/checklist/${data.id}/list/${element.params.id}/review`
                                         }
