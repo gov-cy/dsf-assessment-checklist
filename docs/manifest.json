@@ -43,10 +43,10 @@
             "type": "image/png"
         }
     ],
-    "start_url": "index.html",
+    "start_url": "/dsf-assessment-checklist/index.html",
     "background_color": "#31576F",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/dsf-assessment-checklist/",
     "theme_color": "#31576F",
     "dir": "ltr"
 }

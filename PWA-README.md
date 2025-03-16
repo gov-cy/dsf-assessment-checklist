@@ -6,6 +6,7 @@ This document describes the process of creating a Progressive Web App (PWA) for 
 
 - Added a `manifest.json` to define the app's metadata (e.g., name, icons, theme color).
 - Served the app using a local server for development (e.g., http-server).
+- Created the `setup-local-dev` script to symlink the app to a local directory.
 
 **2. Service Worker Setup:**
 
@@ -40,6 +41,8 @@ npx workbox injectManifest src/workbox-config.js
 - The built SW (`docs/sw.js`) is deployed alongside the app.
 
 ## 3. Testing Locally
+
+To test the PWA locally make sure you have run the `setup-local-dev` script. This will create the `dsf-assessment-checklist` directory and symlink the app to it, replicating the environment of github pages.
 
 **1. PWA Testing:**
 

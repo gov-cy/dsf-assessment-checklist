@@ -7,9 +7,10 @@
   "author": "DMRID - DSF Team",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -c-1 -p 3000 -o docs/"
-    ,"a11y-test" : "node a11y.mjs  "
-    ,"build-sw" : "npx workbox injectManifest src/workbox-config.js "
+    "setup-local-dev": "node setup-symlink.js",
+    "start": "http-server -c-1 -p 3000 -o dsf-assessment-checklist/",
+    "a11y-test": "node a11y.mjs  ",
+    "build-sw": "npx workbox injectManifest src/workbox-config.js "
   },
   "devDependencies": {
     "http-server": "^14.1.1",
