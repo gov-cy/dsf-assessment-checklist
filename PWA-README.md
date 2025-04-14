@@ -3,7 +3,7 @@ This document describes the process of creating a Progressive Web App (PWA) for 
 
 ## 1. Initial Setup
 **1. Basic PWA Requirements:**
-
+- `npm install workbox-cli --save-dev`
 - Added a `manifest.json` to define the app's metadata (e.g., name, icons, theme color).
 - Served the app using a local server for development (e.g., http-server).
 - Created the `setup-local-dev` script to symlink the app to a local directory.
